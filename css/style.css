@@ -2,7 +2,7 @@ body {
   font_size: 20px;
 }
 
-. main-content {
+.main-content {
   display: flex;
   width: 80%;
   margin: 0 auto;
