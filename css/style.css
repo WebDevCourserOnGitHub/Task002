@@ -1,11 +1,46 @@
 body {
-  font_size: 20px;
+  font-size: 20px;
 }
-
-.main-content {
+header {
+  border: 2px solid navy;
+}
+.wrapper-demonstration {
   display: flex;
+  border: 2px solid navy;
+}
+.aside-right {
+  width: 30%;
+  border: 2px solid navy;
+}
+.main-content {
   width: 80%;
   margin: 0 auto;
+  background-color: aqua;
+}
+.main-content-header {
+  text-align: center;
+}
+.two-columns {
+  margin: 0 auto;
+  background-color: aquamarine;
+  border: 2px solid navy;
+}
+.columns-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: aquamarine;
+  border: 2px solid yellow;
+}
+.study-links {
+  border: 2px solid navy;
+}
+.aside-left {
+  width: 30%;
+  border: 2px solid navy;
+}
+footer {
+  border: 2px solid navy;
 }
 
 @media screen and (max-width: 480px) {
