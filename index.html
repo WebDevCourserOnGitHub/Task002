@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Task002</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/vars.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,71 +16,82 @@
       <!--Masthead-->
       <!-- <div class="row"></div> -->
       <!-- <object data="happy.svg" width="300" height="300"> </object> -->
-      <img src="assets/images/logo/LogoBOOKi.svg" alt="svg-pic" width="10%">
-      <ul class="header-links-list">
-        <li class="header-links-list-point">
-          <a href="http://">
-            Home
-          </a>
-        </li>
-        <li class="header-links-list-point">
-          <a href="http://">
-            Projects
-          </a>
-        </li>
-        <li class="header-links-list-point">
-          <a href="http://">
-            News
-          </a>
-        </li>
-        <li class="header-links-list-point">
-          <a href="http://">
-            History
-          </a>
-        </li>
-        <li class="header-links-list-point">
-          <a href="http://">
-            About
-          </a>
-        </li>
-        <li class="header-links-list-point">
-          <a href="http://">
-            Sitemap
-          </a>
-        </li>
-      </ul>
-  </header>
+      <div class="header-booki">
+        <img  src="assets/images/logo/LogoBOOKi.svg"
+              alt="assets/images/logo/LogoBOOKi.svg">
+        <nav class="header-booki-navigation-string">
+          <ul class="header-booki-nav-links">
+            <li><a href="#">Accomodations</a></li> 
+            <li><a href="#">Activities</a></li> 
+          </ul>
+        </nav>
+      </div>
+      <div class="quiz-002">
+        <ul class="header-links-list">
+          <li class="header-links-list-point">
+            <a href="http://">
+              Home
+            </a>
+          </li>
+          <li class="header-links-list-point">
+            <a href="http://">
+              Projects
+            </a>
+          </li>
+          <li class="header-links-list-point">
+            <a href="http://">
+              News
+            </a>
+          </li>
+          <li class="header-links-list-point">
+            <a href="http://">
+              History
+            </a>
+          </li>
+          <li class="header-links-list-point">
+            <a href="http://">
+              About
+            </a>
+          </li>
+          <li class="header-links-list-point">
+            <a href="http://">
+              Sitemap
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <section class="wrapper-demonstration">
       <div class="aside-right">
         <ul class="aside-right-links-list">
           <li class="aside-right-links-list-point">
             <a href="http://">
-              link-text
+              Home
             </a>
           </li>
           <li class="aside-right-links-list-point">
             <a href="http://">
-              link-text
+              Projects
             </a>
           </li>
           <li class="aside-right-links-list-point">
             <a href="http://">
-              link-text
+              News
             </a>
           </li>
           <li class="aside-right-links-list-point">
             <a href="http://">
-              link-text
+              History
             </a>
           </li>
           <li class="aside-right-links-list-point">
             <a href="http://">
-              link-text
+              About
             </a>
           </li>
           <li class="aside-right-links-list-point">
             <a href="http://">
-              link-text
+              Sitemap
             </a>
           </li>
         </ul>
@@ -96,26 +108,24 @@
         <!--Two Columns-->
         <h1 class="main-content-header">Our study</h1>
         <div class="two-columns">
-          <div class="columns-wrapper">
-            <!--Left Column-->
-            <ul class="study-links">
-              <li><a href="#">Accomodations</a></li> 
-              <li><a href="#">Activities</a></li> 
-              <li><a href="#">Accomodations</a></li> 
-              <li><a href="#">Activities</a></li> 
-              <li><a href="#">Accomodations</a></li> 
-              <li><a href="#">Activities</a></li> 
-            </ul>
-            <!--Right Column-->
-            <ul class="study-links">
-              <li><a href="#">Accomodations</a></li> 
-              <li><a href="#">Activities</a></li> 
-              <li><a href="#">Accomodations</a></li> 
-              <li><a href="#">Activities</a></li> 
-              <li><a href="#">Accomodations</a></li> 
-              <li><a href="#">Activities</a></li> 
-            </ul>
-          </div>
+          <!--Left Column-->
+          <ul class="study-links">
+            <li><a href="#">Accomodations</a></li> 
+            <li><a href="#">Activities</a></li> 
+            <li><a href="#">Accomodations</a></li> 
+            <li><a href="#">Activities</a></li> 
+            <li><a href="#">Accomodations</a></li> 
+            <li><a href="#">Activities</a></li> 
+          </ul>
+          <!--Right Column-->
+          <ul class="study-links">
+            <li><a href="#">Accomodations</a></li> 
+            <li><a href="#">Activities</a></li> 
+            <li><a href="#">Accomodations</a></li> 
+            <li><a href="#">Activities</a></li> 
+            <li><a href="#">Accomodations</a></li> 
+            <li><a href="#">Activities</a></li> 
+          </ul>
         </div>
       </section>
       <div class="aside-left">
@@ -222,10 +232,11 @@
         📃 Resources:
       </h3>
        <p class="milestones-text">
-        <a  href="http://"
-            class="milestone-subheader-resources-link">
+        ● The course 
+        <a  href="https://openclassrooms.com/en/courses/7039141-set-up-your-front-end-development-environment">
+            Setup your Front-End Development Environment
         </a>
-        ● The course Setup your Front-End Development Environment.
+        .
       </p>
        <p class="milestones-text">
         ● This article on Box sizing from CSS Tricks.
@@ -340,7 +351,26 @@
       <h3 class="milestone-subheader-progress">
         30% progress
       </h3>
-       <p class="milestones-text">
+
+      <h1>Find a place for your dream vacation</h1>
+      <p>Downtown on in nature</p>
+      <form>
+        <div class="second-task-search-form">
+          <span>
+            <img  src="assets/images/fontawesome-free/location-dot.svg"
+            alt="/assets/images/fontawesome-free/location-dot.svg"
+            width="20px">
+          </span>
+          <input  type="text"
+                  placeholder="Marseille, France"
+                  id="second-task-search-form-input-type-text">
+          <button type="submit">
+            Search
+          </button>
+        </div>
+      </form>
+
+      <p class="milestones-text">
         You can move on to embedding the search bar for the page thanks to the use of a form. This step may take a little longer than the others.
       </p>
        <p class="milestones-text">
@@ -394,7 +424,56 @@
       <h3 class="milestone-subheader-progress">
         35% progress
       </h3>
-       <p class="milestones-text">
+
+
+      <div class="filter-part-35percent">
+        <div class="filters">
+            <p class="filters-caption">
+              Filters:
+            </p>
+          <div class="filter-options">
+            <div class="filter-option">
+              <span class="filters-rounded-icons">
+                <img  src="assets/images/fontawesome-free/money-bill-wave.svg"
+                      alt="assets/images/fontawesome-free/money-bill-wave.svg">
+              </span>
+              <span class="filters-rounded-icon-caption">
+                Low cost
+              </span>
+            </div>
+            <div class="filter-option">
+              <span class="filters-rounded-icons">
+                <img  src="assets/images/fontawesome-free/child-reaching.svg"
+                      alt="assets/images/fontawesome-free/child-reaching.svg">
+              </span>
+              <span class="filters-rounded-icon-caption">
+                Family-friendly
+              </span>
+            </div>
+            <div class="filter-option">
+              <span class="filters-rounded-icons">
+                <img  src="assets/images/fontawesome-free/heart.svg"
+                      alt="assets/images/fontawesome-free/heart.svg">
+              </span>
+              <span class="filters-rounded-icon-caption">
+                Romantic
+              </span>
+            </div>
+            <div class="filter-option">
+              <span class="filters-rounded-icons">
+                <img  src="assets/images/fontawesome-free/dog.svg"
+                    alt="assets/images/fontawesome-free/dog.svg">
+              </span>
+              <span class="filters-rounded-icon-caption">
+                Pets allowed
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <p class="milestones-text">
         You can now start embedding filter elements for the page.
       </p>
        <p class="milestones-text">
