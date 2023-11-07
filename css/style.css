@@ -382,9 +382,39 @@ color: #030303;
   margin: 0;
 }
 
+.wrapper-cards-random {}
+.wrapper-card-random-titles {
+  width: 90vw;
+  font-size: 2vmax;
+  font-weight: 500;
+}
+.wrapper-inner-random-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card-random__hint {
+  /* box-sizing: border-box; */
+  width: 21%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 1.3vw;
+  background-color: snow;
+  border: 2px solid #477ffc;
+  box-shadow: #030303;
+}
+.product-card-random-image  {
+  width: 100%;
+}
+.product-card-random-image img {
+  padding: 1%;
+  width: 98%;
+  border-radius: 1.5vw 1.5vw 0 0;
+}
 
-
-
+.product-card-random__hotel-name {
+  padding: 1vmin;
+  font-size: 1.2vmax;
+}
 
 
 
