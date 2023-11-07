@@ -402,7 +402,26 @@ color: #030303;
   border: 2px solid #477ffc;
   box-shadow: #030303;
 }
-.product-card-random-image  {
+
+.product-card-random-1x {}
+.product-card-random-1x .product-card-random-image {
+}
+.product-card-random-1x .product-card-random-image img {
+  height: 30vmax;
+}
+
+
+
+.product-card-random-21 {}
+.product-card-random-22 {}
+.product-card-random-3x {}
+.product-card-random-41 {}
+.product-card-random-42 {}
+
+
+
+
+.product-card-random-image {
   width: 100%;
 }
 .product-card-random-image img {
