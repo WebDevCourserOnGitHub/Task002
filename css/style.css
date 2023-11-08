@@ -120,11 +120,12 @@ ul {
   border: 2px solid navy;
   border-radius: 2vh;
 }
-
 .milestones-header {
+  margin: 12vmin 0 5vmin 0;
   text-align: center;
 }
 .milestone-header {
+  margin: 7vmin 0 2vmin 0;
   text-align: center;
 }
 .milestone-subheader {
