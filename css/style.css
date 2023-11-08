@@ -11,6 +11,7 @@ body {
                 'Lato', 'Roboto', 'Roboto Condensed',
                 sans-serif;
   font-size: 20px;
+  color: #2b2b2b;
 }
 ul {
   list-style-type: none;
@@ -444,13 +445,25 @@ color: #030303;
   padding: 1vmin;
   font-size: 1.2vmax;
 }
-
-
-
-footer {
-  border: 2px solid navy;
-  border-radius: 2vmin;
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vmin 0 0 0;
+  padding: 5vmin 0;
+  font-size: 0.96rem;
+  background-color: #f2f2f2;
 }
+.footer-column {
+  width: 30%;
+}
+.footer-column-title {
+  padding: 1vmin 0;
+  font-weight: 600;
+}
+.footer-column-string {
+  padding: 1vmin 0;
+}
+
 
 @media screen and (max-width: 480px) {
 
