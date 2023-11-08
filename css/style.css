@@ -392,44 +392,54 @@ color: #030303;
   display: flex;
   flex-wrap: wrap;
 }
-.product-card-random__hint {
-  /* box-sizing: border-box; */
+.product-card-random__hint-0,
+.product-card-random__hint-1,
+.product-card-random__hint-2,
+.product-card-random__hint-3,
+.product-card-random__hint-4 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 21%;
   margin: 0 auto;
   padding: 0;
-  border-radius: 1.3vw;
-  background-color: snow;
-  border: 2px solid #477ffc;
-  box-shadow: #030303;
 }
-
-.product-card-random-1x {}
-.product-card-random-1x .product-card-random-image {
+.product-card-random-1x,
+.product-card-random-21,
+.product-card-random-22,
+.product-card-random-3x,
+.product-card-random-41,
+.product-card-random-42 {
+  border-radius: 1.5vw;
+  box-shadow: 2px 2px 13px 2px rgba(166,155,155,0.75);
+  -webkit-box-shadow: 2px 2px 13px 2px rgba(166,155,155,0.75);
+  -moz-box-shadow: 2px 2px 13px 2px rgba(166,155,155,0.75);
 }
-.product-card-random-1x .product-card-random-image img {
+.product-card-random-1x .product-card-random-image img,
+.product-card-random-3x .product-card-random-image img {
   height: 30vmax;
 }
-
-
-
-.product-card-random-21 {}
-.product-card-random-22 {}
-.product-card-random-3x {}
-.product-card-random-41 {}
-.product-card-random-42 {}
-
-
-
+.product-card-random-21 .product-card-random-image img {
+  height: 15vmax;
+}
+.product-card-random-22 .product-card-random-image img {
+  height: 10vmax;
+}
+.product-card-random-41 .product-card-random-image img {
+  height: 10vmax;
+}
+.product-card-random-42 .product-card-random-image img {
+  height: 15vmax;
+}
 
 .product-card-random-image {
   width: 100%;
 }
 .product-card-random-image img {
-  padding: 1%;
-  width: 98%;
+  width: 100%;
   border-radius: 1.5vw 1.5vw 0 0;
 }
-
 .product-card-random__hotel-name {
   padding: 1vmin;
   font-size: 1.2vmax;
