@@ -15,6 +15,8 @@ body {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .header-booki {
   display: flex;
@@ -54,6 +56,7 @@ ul {
 .header-links-list {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .quiz-002 {
   box-sizing: border-box;
@@ -85,7 +88,7 @@ ul {
 }
 .header-links-list-point,
 .aside-right-links-list-point {
-  padding: 1vh;
+  padding: 2vmin 5vmin;
 }
 
 .main-content {
@@ -103,6 +106,7 @@ ul {
   border-radius: 2vh;
 }
 .study-links {
+  width: 30%;
   margin: 2vh auto;
   padding: 2vh;
   border: 2px solid navy;
@@ -465,6 +469,17 @@ color: #030303;
 }
 
 
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 960px) {
+  .two-columns {
+    flex-direction: column;
+  }
+  .study-links {
+    width: 72%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .aside-left,
+  .aside-right {
+    display: none;
+  }
 }
