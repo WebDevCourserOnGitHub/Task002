@@ -150,6 +150,13 @@ ul {
 .milestones-text a {
   text-decoration: none;
 }
+.screenshot {
+  width: 90%;
+  margin: 1% auto;
+}
+.screenshot img{
+  width: 100%;
+}
 
 .search-form {
   margin: 3vmin;
