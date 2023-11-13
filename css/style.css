@@ -161,7 +161,7 @@ ul {
 .search-form {
   margin: 3vmin;
   padding: 6vmin;
-  border: 0.3vmin solid navy;
+  /* border: 0.3vmin solid navy; */
   border-radius: 3vmin;
 }
 .search-form-subtitle {
@@ -226,7 +226,7 @@ color: #030303;
 }
 
 .filter-part-35percent {
-  border: 2px solid navy;
+  /* border: 2px solid navy; */
 }
 .filters {
   display: flex;
