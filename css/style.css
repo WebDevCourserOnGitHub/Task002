@@ -1,17 +1,17 @@
 body {
-  /* font-family: 'Arizonia', cursive; */
-  /* font-family: 'Playfair Display', 'Stint Ultra Condensed', serif; */
-  font-family: -apple-system, -apple-system, BlinkMacSystemFont,
-                'Trebuchet MS', 'Lucida Sans Unicode',
-                'Segoe UI', 'Sofia Sans Extra Condensed',
-                'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans',
-                'Franklin Gothic Medium', 'Arial Narrow', Arial,
-                'Lucida Grande', 'Lucida Sans', Arial,
-                'Helvetica Neue',
-                'Lato', 'Roboto', 'Roboto Condensed',
-                sans-serif;
+  font-family:  -apple-system, BlinkMacSystemFont,
+  'Trebuchet MS', 'Lucida Sans Unicode',
+  'Segoe UI', 'Sofia Sans Extra Condensed',
+  'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans',
+  'Franklin Gothic Medium', 'Arial Narrow', Arial,
+  'Lucida Grande', 'Lucida Sans', Arial,
+  'Helvetica Neue',
+  'Lato', 'Roboto', 'Roboto Condensed',
+  sans-serif;
   font-size: 24px;
   color: #2b2b2b;
+  /* font-family: 'Arizonia', cursive; */
+  /* font-family: 'Playfair Display', 'Stint Ultra Condensed', serif; */
 }
 ul {
   list-style-type: none;
@@ -161,7 +161,6 @@ ul {
 .search-form {
   margin: 3vmin;
   padding: 6vmin;
-  /* border: 0.3vmin solid navy; */
   border-radius: 3vmin;
 }
 .search-form-subtitle {
@@ -226,7 +225,7 @@ color: #030303;
 }
 
 .filter-part-35percent {
-  /* border: 2px solid navy; */
+  background: transparent;
 }
 .filters {
   display: flex;
@@ -309,7 +308,6 @@ color: #030303;
   justify-content: space-between;
 }
 .product-card {
-  /* flex-basis: 29vmin; */
   width: 19vw;
 }
 .product-card__most-popular {
